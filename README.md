@@ -7,6 +7,6 @@ yum update -y
 yum install -y httpd.x86_64
 systemctl start httpd.service
 systemctl enable httpd.service
-ehco "accessing $(hostname -f)" > /var/www/html/index.html
+echo "accessing $(hostname -f)" > /var/www/html/index.html
 
 ```
