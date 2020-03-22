@@ -1,8 +1,7 @@
 # aws_learning
-### User Data
+### User Data (user data automatically ran as super user)
 ```
 #!/bin/bash
-# sudo su
 yum update -y
 yum install -y httpd.x86_64
 systemctl start httpd.service
