@@ -1,4 +1,5 @@
 ### Making an Amazon EBS Volume Available for Use on Linux
+#### EBS is like a USB drive, you have to map/mount it to use. 
 ```
 [ec2-user@ip-172-31-36-197 ~]$ lsblk
 NAME    MAJ:MIN RM SIZE RO TYPE MOUNTPOINT
